@@ -15,7 +15,7 @@ int main(void) {
     printf("Por favor introduce un número de caras para el dado (0 para salir): ");
     if (scanf("%d", &dado) != 1) {
       printf("EL VALOR INTRODUCIDO DEBE SER UN NÚMERO\n");
-      clean_stdin(); // IMPORTANTÍSIMO
+      clean_stdin(); // IMPORTANTÍSIMO, se puede probar también con fflush(stdin)
     } else if (dado == 0) {
       printf("Saliendo del programa...\n");
       break;

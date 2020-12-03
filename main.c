@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void clean_stdin(void) // source: https://stackoverflow.com/questions/17318886/fflush-is-not-working-in-linux
+void clean_stdin(void) // UTILIZAR ESTE MÉTODO SI fflush(stdin) DIESE PROBLEMAS! source: https://stackoverflow.com/questions/17318886/fflush-is-not-working-in-linux
 {
     int c;
     do {
